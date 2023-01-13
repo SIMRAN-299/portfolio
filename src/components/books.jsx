@@ -8,7 +8,7 @@ ele.addEventListener('mousemove',(e)=>{
   
   currentX=e.offsetX;
   currentY=e.offsetY;
-  
+  console.log('hello world');
   ele.style.setProperty("--positionx",`${currentX}px`);
   ele.style.setProperty("--positiony",`${currentY}px`);
 
